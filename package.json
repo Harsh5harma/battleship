@@ -1,0 +1,23 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ship.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harsh5harma/battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Harsh5harma/battleship/issues"
+  },
+  "homepage": "https://github.com/Harsh5harma/battleship#readme",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
