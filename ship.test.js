@@ -52,4 +52,10 @@ describe('sinking ships', ()=> {
   test('destroyer not sunk', ()=> {
     expect(ship('destroyer', 1).isSunk()).toEqual(false);
   });
+
+  describe('setting coordinates', ()=> {
+    const t = ship('carrier');
+    t.setPosition([1, 3], [2, 4]);
+    expect(t.getPosition()).toEqual([[1, 3], [2, 4]]);
+  });
 });
