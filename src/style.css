@@ -1,0 +1,225 @@
+*{
+  margin:0px;
+}
+body{
+  color:rgba(211, 211, 211, 1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width:100vw;
+  height:7.5vh;
+  background-color: rgba(32, 32, 32, 1);
+  box-shadow: 0px 9px 10px 2px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.main{
+  background-image: url('./images/backimg.jpg');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.gridContainer{
+  display: flex;
+  flex-direction: column;
+  width:552px;
+  height:551px;
+  align-items: flex-end;
+}
+
+.gridColMarks{
+  width:501px;
+  height:50px;
+  background-color: black;
+}
+
+.gridSubDiv{
+  width:100%;
+  height:501px;
+  display: flex;
+}
+
+.gridRowMarks{
+  width:50.15px;
+  height:100%;
+  background-color: black;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  background-color: rgba(217, 217, 217, 0.738);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.37);
+  width: 501px;
+  height:501px;
+}
+
+.gridElement{
+  border:1px solid rgba(32, 32, 32, 0.34);
+}
+.gridColMarks{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 32px;
+}
+
+.gridRowMarks{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32px;
+}
+
+.fcontainer{
+  margin-left:200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 982px;
+  height:809px;
+}
+
+.sContainer{
+  width: 552px;
+  height:809px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nameParent{
+  display: flex;
+  justify-content: space-around;
+  font-size: 36px;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nameInput{
+  color:black;
+  background-color: rgba(217, 217, 217, 1);
+  width:306px;
+  height:54px;
+  margin-left:20px;
+  padding-left:10px;
+  font-size: 32px;
+  border-radius: 7px;
+}
+
+.infoTextParent{
+  height:91px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.whatShip{
+  font-size:40px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.whatLength{
+  font-size:28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 340px;
+  height:333px;
+}
+
+.cTitle{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  align-items: center;
+  font-size:36px;
+}
+
+.posContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 85px);
+  grid-template-rows: repeat(2, 45px);
+  row-gap: 27px;
+}
+
+.coordtxt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:20px;
+}
+
+.coordinput{
+  color:black;
+  font-size: 20px;
+  padding-left: 10px;
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.placeBtn{
+  color:black;
+  font-weight: bold;
+  background-color: rgba(217, 217, 217, 1);
+  width: 105px;
+  height:45px;
+  font-size: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  margin-right: 75px;
+  border:0px;
+}
+
+.board{
+  display: flex;
+  flex-direction: column;
+
+  height: 704px;
+  font-size: 40px;
+  justify-content: space-between;
+}
+.pName, .pStatus{
+  display: flex;
+  justify-content: center;
+  align-tracks: center;
+}
+.pStatus{
+  font-size: 32px;
+}
+.papadiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:1302px;
+}
+.minipapadiv{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.moveStatus{
+  font-size: 40px;
+  margin-top: 10px;
+}
